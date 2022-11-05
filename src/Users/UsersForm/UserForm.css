@@ -1,0 +1,38 @@
+.input {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: black;
+  }
+  
+  .input input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+
+  .input button{
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #aa1c13;
+    background-color: #aa1c13;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
